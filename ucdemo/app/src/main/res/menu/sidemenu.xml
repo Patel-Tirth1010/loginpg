@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home" android:icon="@drawable/ic_baseline_home_24" android:title="HOME"/>
+        <item android:id="@+id/profile" android:icon="@drawable/ic_baseline_person_24" android:title="PROFILE"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+    <item  android:title="AUTHENTICATION">
+        <menu>
+            <item android:id="@+id/logout" android:icon="@drawable/ic_baseline_login_24" android:title="LOGOUT"/>
+        </menu>
+    </item>
+    </group>
+    <item  android:title="SHARE">
+        <menu>
+            <item android:id="@+id/sharing" android:icon="@drawable/ic_baseline_share_24" android:title="SHARE"/>
+        </menu>
+    </item>
+
+
+</menu>
